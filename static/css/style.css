@@ -1,0 +1,19 @@
+header {
+    background-color: blue;
+    font-size: x-large;
+    text-align: center
+}
+
+header *{
+    color: gold;
+}
+
+footer {
+    background-color:gold ;
+    font-size: x-large;
+    text-align: center
+}
+
+footer *{
+    color: blue;
+}

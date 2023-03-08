@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block main %}
+    {% include 'header.html' %}
+
+    <a href="/api">Все данные</a><br>
+    <a href="/api?param=temperature">Текущая температура:</a><br>
+    <a href="/api?param=humidity">Текущая влажность:</a><br>
+    <a href="/api?param=boiler.isRun">Состояние котла:</a><br>
+    <a href="/api?param=meter.electricity.consumption">Потребление электроэнергии:</a><br>
+    <a href="/api?param=meter.gas.consumption">Потребление газа:</a><br>
+    <a href="/api?param=meter.water.consumption">Потребление воды:</a>
+
+    {% include 'footer.html' %}
+{% endblock %}
